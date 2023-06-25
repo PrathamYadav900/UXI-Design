@@ -1,0 +1,71 @@
+.gpt3__navbar-links{
+    display: flex;
+    
+}
+
+
+.gpt3__navbar{
+    display: flex;
+    justify-content: flex-start;
+   align-items: center;
+    padding: 2rem 5rem;
+}
+.gpt3__navbar-links_logo{
+margin-right: 4rem;
+
+}
+.gpt3__navbar-links_logo img{
+width: 62.56px;
+height: 16.02px;
+}
+.gpt3__navbar-links_container{
+display: flex;
+
+}
+.gpt3__navbar-links_container a:hover{
+    text-decoration: underline;
+}
+.gpt3__navbar-links_container a{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24.59px;
+    color: #fff;
+    margin-right: 3rem;
+    font-family: var(--font-family);
+    cursor: pointer;
+   
+}
+.navbar-signin_buttons{
+    display: flex;
+  justify-content: flex-end;
+  margin-left: 9rem;
+}
+
+#Sign_In{
+margin: 1rem;
+font-size: 17px;
+font-family: var(--font-family);
+cursor: pointer;
+color: #fff;
+}
+
+#Sign_In:hover{
+    text-decoration: underline;
+}
+
+#Sign_Up{
+    width:125px;
+    height:47px;
+    background-color: #FF4820;
+    border-radius: 5px;
+    color: #fff;
+    font:var(--font-family);
+    font-size:17px;
+    line-height:24.59px;
+cursor: pointer;
+border: #FF4820;
+}
+
+#Sign_Up:hover{
+    text-decoration: underline;
+}

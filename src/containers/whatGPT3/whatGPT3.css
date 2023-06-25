@@ -1,0 +1,82 @@
+.gradient-text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.section__margin {
+    margin: 4rem 6rem;
+  }
+  .section__padding {
+    padding: 4rem 6rem;
+  }
+
+  .whatgpt3-bg
+  {
+      /* ff 3.6+ */
+      background:-moz-radial-gradient(circle at 46% 23%, rgba(4, 44, 84, 1) 0%, rgba(4, 44, 84, 1) 50%, rgba(5, 64, 123, 1) 100%);
+  
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-radial-gradient(circle at 46% 23%, rgba(4, 44, 84, 1) 0%, rgba(4, 44, 84, 1) 50%, rgba(5, 64, 123, 1) 100%);
+  
+      /* opera 11.10+ */
+      background:-o-radial-gradient(circle at 46% 23%, rgba(4, 44, 84, 1) 0%, rgba(4, 44, 84, 1) 50%, rgba(5, 64, 123, 1) 100%);
+  
+      /* ie 10+ */
+      background:-ms-radial-gradient(circle at 46% 23%, rgba(4, 44, 84, 1) 0%, rgba(4, 44, 84, 1) 50%, rgba(5, 64, 123, 1) 100%);
+  
+      /* global 92%+ browsers support */
+      background:radial-gradient(circle at 46% 23%, rgba(4, 44, 84, 1) 0%, rgba(4, 44, 84, 1) 50%, rgba(5, 64, 123, 1) 100%);
+  
+  }
+
+   .gpt3__whatgpt3-heading{
+    display: flex;
+    margin: 2rem 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .gpt3__whatgpt3-heading h1{
+
+font-weight:800;
+max-width: 510px;
+
+
+font-family: var(--font-family);
+}
+
+.gpt3__whatgpt3-heading p{
+font-weight: 500;
+font-size: 16px;
+cursor: pointer;
+color: #FF8A71;
+
+
+}
+
+.gpt3__whatgpt3-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  margin: 5.6em 0 1rem;
+}
+
+
+
+.gpt3__whatgpt3-feature{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+/* Customizing feature component as per needs */
+.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+    max-width: 700px;
+} 
+
